@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="kategori_dokter">
+        <item>@string/unknown</item>
+        <item>@string/kategori_umum</item>
+        <item>@string/kategori_anak</item>
+        <item>@string/kategori_kandungan</item>
+        <item>@string/kategori_penyakit_dalam</item>
+        <item>@string/kategori_gigi</item>
+    </array>
+    <array name="nama_dokter">
+        <item>@string/unknown</item>
+        <item>@string/bambang</item>
+        <item>@string/jack</item>
+        <item>@string/indah</item>
+        <item>@string/marsini</item>
+        <item>@string/ely</item>
+    </array>
+    <array name="ruangan">
+        <item>@string/unknown</item>
+        <item>@string/r01</item>
+        <item>@string/r02</item>
+        <item>@string/r03</item>
+        <item>@string/r04</item>
+        <item>@string/r05</item>
+    </array>
+</resources>

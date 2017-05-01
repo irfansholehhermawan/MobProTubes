@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Dokter Antrian</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="daftar_user">Are you have account?\nRegister</string>
+    <string name="daftar">Daftar Antrian</string>
+    <string name="lihat">Lihat Data Dokter</string>
+    <string name="lihat_data_antrian">Data Antrian</string>
+    <string name="data_dokter">Data Dokter</string>
+    <string name="button_daftar">Daftar </string>
+    <string name="button_masuk">Masuk</string>
+    <string name="button_keluar">Keluar</string>
+    <string name="button_hapus">Hapus Data</string>
+    <string name="button_reset">Reset</string>
+    <string name="noid">No Identitas</string>
+    <string name="nama">Nama</string>
+    <string name="namaPasien">Nama Pasien</string>
+    <string name="namaDokter">Nama Dokter</string>
+    <string name="ttl">TTL</string>
+    <string name="alamat">Alamat</string>
+    <string name="email">Email</string>
+    <string name="save">Save</string>
+    <string name="delete">Konfirmasi</string>
+    <string name="konfirmasi">Konfirmasi Antrian</string>
+    <string name="deleteall">Delete All Antrian</string>
+    <string name="insert">Insert Antrian</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="nohp">No HP</string>
+    <string name="jk">Jenis Kelamin</string>
+    <string name="status">Status</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="keluhan">Keluhan</string>
+    <string name="klinik">Klinik</string>
+    <string name="ruangan">Ruangan</string>
+    <string name="kategori">Kategori</string>
+
+    <string name="unknown">Unknown</string>
+    <string name="kategori_umum">Kategori Umum</string>
+    <string name="kategori_anak">Kategori Anak</string>
+    <string name="kategori_kandungan">Kategori Kandungan</string>
+    <string name="kategori_gigi">Kategori Gigi</string>
+    <string name="kategori_penyakit_dalam">Kategori Penyakit Dalam</string>
+
+    <string name="bambang">Dr. Bambang</string>
+    <string name="jack">Dr. Jack</string>
+    <string name="indah">Dr. Indah</string>
+    <string name="marsini">Dr. Marsini</string>
+    <string name="ely">Dr. Ely</string>
+
+    <string name="r01">PKU.01.01</string>
+    <string name="r02">PKU.01.02</string>
+    <string name="r03">PKU.01.03</string>
+    <string name="r04">PKU.01.04</string>
+    <string name="r05">PKU.01.05</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="editor_activity_title_new_pet">Add a Antrian</string>
+    <string name="editor_activity_title_edit_pet">Edit Antrian</string>
+    <string name="editor_insert_antrian_successful">Antrian Saved</string>
+    <string name="editor_insert_antrian_failed">Error with saving Antrian</string>
+    <string name="editor_update_antrian_successful">Antrian Updated</string>
+    <string name="editor_update_antrian_failed">Error with updating Antrian</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="editor_delete_antrian_successful">Antrian telah dikonfirmasi! Terima Kasih</string>
+    <string name="editor_delete_antrian_failed">Error konfirmasi antrian</string>
+    <string name="delete_dialog_msg">Konfirmasi this Antrian?</string>
+    <string name="cancel">Cancel</string>
+    <string name="keluhan_unknown">Keluhan tidak ada!</string>
+
+    <string name="empty_view_title_text">Data Antrian Kosong!!!</string>
+    <string name="empty_view_subtitle_text">Ayoo segera daftar Antrian!</string>
+
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="pengembang1">Irfan Sholeh Hermawan</string>
+    <string name="detail_pengembang1">6706154180 [D3IF 39-04]</string>
+    <string name="pengembang2">Miftakhul Jannah</string>
+    <string name="detail_pengembang2">6706150128 [D3IF 39-04]</string>
+    <string name="pengembang3">Nurwinda Manurung</string>
+    <string name="detail_pengembang3">6706154168 [D3IF 39-04]</string>
+
+    <string name="notifikasi">Notifikasi</string>
+    <string name="lihat_notifikasi">Lihat Notifikasi</string>
+    <string name="notifikasi_kosong">- Notifikasi tidak ada!!!</string>
+
+    <string name="profil">Profil</string>
+    <string name="profil_nama">Irfan Sholeh Hermawan</string>
+    <string name="profil_no">6706154180</string>
+    <string name="profil_jk">Laki-Laki</string>
+    <string name="profil_ttl">Klaten, 24 April 1997</string>
+    <string name="profil_alamat">Jl. Ciganitri no 5, RT 01/RW 06, Babakan, Cipagalo, Bojongsoang, Bandung</string>
+    <string name="profil_nohp">081578999579</string>
+    <string name="profil_email">irfansholehhermawan@gmail.com</string>
+
+</resources>

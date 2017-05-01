@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sholehhermawan.mobproasssessment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DokterActivity"
+            android:label="@string/lihat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".UmumActivity"
+            android:label="@string/kategori_umum"
+            android:parentActivityName=".DokterActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DokterActivity" />
+        </activity>
+        <activity
+            android:name=".AnakActivity"
+            android:label="@string/kategori_anak"
+            android:parentActivityName=".DokterActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DokterActivity" />
+        </activity>
+        <activity
+            android:name=".KandunganActivity"
+            android:label="@string/kategori_kandungan"
+            android:parentActivityName=".DokterActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DokterActivity" />
+        </activity>
+        <activity
+            android:name=".PenyakitDalamActivity"
+            android:label="@string/kategori_penyakit_dalam"
+            android:parentActivityName=".DokterActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DokterActivity" />
+        </activity>
+        <activity
+            android:name=".GigiActivity"
+            android:label="@string/kategori_gigi"
+            android:parentActivityName=".DokterActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DokterActivity" />
+        </activity>
+        <activity
+            android:name=".AplikasiActivity"
+            android:label="@string/tentang_kami"
+            android:parentActivityName=".Main2Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".NotifikasiActivity"
+            android:label="@string/notifikasi"
+            android:parentActivityName=".Main2Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".CatalogActivity"
+            android:label="@string/lihat_data_antrian">
+        </activity>
+        <activity
+            android:name=".EditorActivity"
+            android:label="@string/daftar"
+            android:parentActivityName=".CatalogActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CatalogActivity" />
+        </activity>
+        <provider
+            android:name=".data.AntrianProvider"
+            android:authorities="com.example.sholehhermawan.mobproasssessment"
+            android:exported="false" />
+    </application>
+
+</manifest>

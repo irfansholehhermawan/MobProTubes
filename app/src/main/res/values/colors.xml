@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorFont">#FFFFFF</color>
+    <color name="colorFontText">#000000</color>
+    <color name="colorFootBackground">#54000000</color>
+    <color name="category_umum">#FF800000</color>
+    <color name="category_anak">#FD8E09</color>
+    <color name="category_kandungan">#FF008000</color>
+    <color name="category_penyakit_dalam">#FF666699</color>
+    <color name="category_gigi">#FF800000</color>
+</resources>
